@@ -1,8 +1,10 @@
 html, body {
     margin: 0;
     color: #555;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    background-color: palegreen;
+    color: white;
 }
 
 main {
@@ -13,4 +15,23 @@ main {
 
 h1 {
     color: #333;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#content {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
 }
